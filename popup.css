@@ -1,0 +1,28 @@
+body{
+    width: 300px;
+    padding: 5px;
+    background-color: #EEE;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header{
+    font-size: 18px;
+}
+
+.ip_wrapper{
+    display: flex;
+    gap: 5px;
+}
+
+.ip_wrapper input{
+    flex-grow: 2;
+}
+
+.ip_wrapper button{
+    flex-grow: 1;
+}

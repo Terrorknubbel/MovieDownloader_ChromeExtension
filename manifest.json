@@ -1,7 +1,7 @@
 {
-    "name": "My YT Bookmarks",
+    "name": "HdFilme Downloader",
     "version": "0.1.0",
-    "description": "Saving timestamps in YT videos",
+    "description": "",
     "permissions": ["storage", "tabs"],
     "host_permissions": ["https://192.168.2.108:3000/download"],
     "background": {
@@ -17,11 +17,11 @@
     ],
     "action": {
       "default_icon": {
-        "16": "assets/ext-icon.png",
-        "24": "assets/ext-icon.png",
-        "32": "assets/ext-icon.png"
+        "16": "assets/download.png",
+        "24": "assets/download.png",
+        "32": "assets/download.png"
       },
-      "default_title": "My YT Bookmarks",
+      "default_title": "HdFilme Downloader",
       "default_popup": "popup.html"
     },
     "manifest_version": 3
