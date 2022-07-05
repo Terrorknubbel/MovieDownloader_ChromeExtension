@@ -18,8 +18,8 @@ function download() {
     let videoTitle;
     let videoType;
 
-    let datailDivChildren = document.getElementsByClassName("detail")[0].children.length;
-    if(datailDivChildren === 6){    //Serie
+    let detailDivChildrenCount = document.getElementsByClassName("detail")[0].children.length;
+    if(detailDivChildrenCount === 6){    //Serie
         titleArr = document.getElementsByClassName("breadcrumb-item")[2].childNodes[1].title.split("-");
 
         title = titleArr[0];
