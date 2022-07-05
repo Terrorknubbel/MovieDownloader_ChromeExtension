@@ -9,8 +9,8 @@
     },
     "content_scripts": [
       {
-        "css": [ "button.css" ],
-        "matches": ["https://hdfilme.cx/*"],
+        "css": [ "content.css" ],
+        "matches": ["https://hdfilme.cx/*", "https://hdfilme.io/*"],
         "js": ["contentScript.js"],
         "all_frames": false
       }

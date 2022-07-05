@@ -1,0 +1,20 @@
+.download-container{
+    display: inline-block;
+}
+
+.download-btn{
+    background-color: green;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.message{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.message.error{
+    color: #ff2323;
+}
