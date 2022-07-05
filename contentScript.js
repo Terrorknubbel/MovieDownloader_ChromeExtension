@@ -54,7 +54,7 @@ function download() {
     };
 
     let data = {
-        "videoType": videoType,
+        "type": videoType,
         "src": videoSrc,
         "title": videoTitle
     };
